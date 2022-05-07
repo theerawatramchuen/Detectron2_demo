@@ -6,4 +6,4 @@ Fixed "AssertionError: Torch not compiled with CUDA enabled" as below pytorch ve
 import torch<br/>
 torch.cuda.is_available()<br/>
 True<br/>
-$ pip3 install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio===0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html <br/>
+"pip3 install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio===0.10.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html"<br/>
