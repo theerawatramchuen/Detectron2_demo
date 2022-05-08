@@ -35,7 +35,7 @@ class Detector:
         image = cv2.imread(imagePath)
         predictions = self.predictor(image)
 
-        viz = Visualizer(image[:,:,::-1], metadata = MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]),instance_mode= ColorMode.SEGMENTATION)
+        viz = Visualizer(image[:,:,::-1], metadata = MetadataCatalog.get(self.cfg.DATASETS.TRAIN[0]),instance_mode= ColorMode.IMAGE_BW)
 
         output = viz.draw_instance_predictions(predictions["instances"].to("cpu"))
 

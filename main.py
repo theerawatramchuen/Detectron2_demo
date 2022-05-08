@@ -1,5 +1,5 @@
 from Detector import *
 
-detector = Detector(model_type="LVIS")
+detector = Detector(model_type="IS")
 
-detector.onImage("images/person.jpg")
+detector.onImage("images/3.jpg")
