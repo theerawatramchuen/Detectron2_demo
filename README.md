@@ -1,7 +1,7 @@
 # Detectron2_demo
 ### Installation & Demo on OD, IS, KP inferencing Youtube
 https://www.youtube.com/watch?v=Pb3opEFP94U <br/>
-### Detectron2 Installation <br/>
+Installation notes: <br/>
 Fixed "AssertionError: Torch not compiled with CUDA enabled" as below pytorch verion to enable cuda device as below test python command line <br/>
 />>>import torch<br/>
 />>>torch.cuda.is_available()<br/>
