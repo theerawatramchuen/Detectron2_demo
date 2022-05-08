@@ -2,7 +2,7 @@
 ### Installation & Demo on OD, IS, KP inferencing Youtube
 https://www.youtube.com/watch?v=Pb3opEFP94U <br/>
 conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch <br/>
-conda install cthon <br/>
+conda install cython <br/>
 git clone https://github.com/facebookresearch/detectron2.git <br/>
 cd detectron2 <br/>
 pip install -e . <br/>
