@@ -7,7 +7,7 @@ git clone https://github.com/facebookresearch/detectron2.git <br/>
 cd detectron2 <br/>
 pip install -e . <br/>
 pip install opencv-python <br/>
-Installation notes: <br/>
+#### Installation notes: <br/>
 Fixed "AssertionError: Torch not compiled with CUDA enabled" as below pytorch verion to enable cuda device as below test python command line <br/>
 />>>import torch<br/>
 />>>torch.cuda.is_available()<br/>
