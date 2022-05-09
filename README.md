@@ -18,6 +18,6 @@ False<br/><br/>
 True<br/><br/>
 
 #### How to fix "ImportError: DLL load failed" while importing win32api on Anaconda Windows<br/>
-pip install pypiwin32
+conda install pywin32
 
 
