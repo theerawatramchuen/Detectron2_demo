@@ -27,7 +27,7 @@ class Detector:
             self.cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url("LVISv0.5-InstanceSegmentation/mask_rcnn_X_101_32x8d_FPN_1x.yaml")
  
         self.cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.7
-        self.cfg.MODEL.DEVICE = "cuda" #cpu or cuda
+        self.cfg.MODEL.DEVICE = "cpu" #cpu or cuda
 
         self.predictor = DefaultPredictor(self.cfg)
 
