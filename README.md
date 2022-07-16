@@ -2,6 +2,7 @@
 ### Installation & Demo on OD, IS, KP inferencing Youtube
 https://www.youtube.com/watch?v=Pb3opEFP94U <br/><br/>
 git clone https://github.com/theerawatramchuen/Detectron2_demo.git <br/>
+cd Detectron2_demo <br/>
 conda create -n detectron2 python=3.8 <br/>
 conda activate detectron2 <br/>
 conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch <br/>
